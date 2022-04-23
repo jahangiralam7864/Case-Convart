@@ -15,5 +15,15 @@ const anotherPart = bangladesh.substr(11, 6);
 const AnotherPart = bangladesh.substring(11, 15);
 // result : substring diye amara kono kisur man koto number index theke suru hobe , than koto number index ar age pojonto print hobe seta dekhano holo Bang
 
-console.log(AnotherPart);
+// console.log(AnotherPart);
 // sob gulo mathord k check korty amra just console a variable ta change kore try korbo.
+
+const first = "amar";
+const second = "city";
+// amra caile ai vabe kono array k jora lagate pari
+// const result = first + second;
+// console.log(result);
+
+const fullString = first.concat(second).concat('any variable add').concat('jahangir alam joy');
+// result : amarcityany variable addjahangir alam joy
+console.log(fullString);
